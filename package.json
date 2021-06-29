@@ -14,6 +14,24 @@
     "typescript": "^4.3.4",
     "web-vitals": "^2.0.1"
   },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.3.1",
+    "@storybook/node-logger": "^6.3.1",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.3.1",
+    "@testing-library/cypress": "^7.0.6",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "cypress": "^7.6.0",
+    "dependency-cruiser": "^10.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-jest-dom": "^3.9.0",
+    "fishery": "^1.3.1",
+    "hygen": "^6.1.0",
+    "prettier": "^2.3.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -110,23 +128,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@storybook/addon-essentials": "^6.3.1",
-    "@storybook/node-logger": "^6.3.1",
-    "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.3.1",
-    "@testing-library/cypress": "^7.0.6",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.1.9",
-    "cypress": "^7.6.0",
-    "dependency-cruiser": "^10.0.4",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-jest-dom": "^3.9.0",
-    "fishery": "^1.3.1",
-    "hygen": "^6.1.0",
-    "prettier": "^2.3.2"
   }
 }
