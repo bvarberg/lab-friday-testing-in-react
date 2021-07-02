@@ -6,11 +6,13 @@ export interface Props {
 }
 
 export function UserChip({ user }: Props) {
-  const userInitial = user.name.charAt(0);
-
   return (
-    <Tooltip title={<p>{user.status}</p>}>
-      <Chip avatar={<Avatar>{userInitial}</Avatar>} label={user.name} />
+    <Tooltip arrow title={user.status}>
+      <Chip
+        avatar={<Avatar>{user.name.charAt(0)}</Avatar>}
+        data-testid="chip:user"
+        label={user.name}
+      />
     </Tooltip>
   );
 }
